@@ -1,0 +1,21 @@
+
+import java.util.*;
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+        int start = in.nextInt();
+        int end = in.nextInt();
+        int l,i;
+        String a;
+        l=S.length();
+        if((l>=1)&&(l<=100))
+        {
+           a=S.substring(start,end);
+           System.out.println(a);     
+            }
+    }
+}
